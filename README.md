@@ -1,15 +1,8 @@
 # Student Portfolio and Academic Planner (COS 106)
 
-## Files
-- index.html, about.html, projects.html, planner.html, contact.html
-- css/style.css (all styling), js/ (main.js, planner.js, contact.js)
-- images/ holds SVG placeholders. Replace profile.svg with your photo and update the img src in index.html (keep the alt text meaningful).
-- media/ is where intro.mp4 (video) and intro.mp3 (audio) go.
+Text content is complete. Still to add:
+- images/profile.svg -> your photograph (update the img src in index.html if you use .jpg or .png)
+- images/project1.svg, project2.svg, project3.svg -> screenshots of the planner, contact form and homepage (update src in projects.html if the file type changes)
+- media/intro.mp4 (video) and optionally media/intro.mp3 (audio); then delete the two grey "Add a short intro..." note lines in about.html
 
-## Fill in
-Search each page for text in [square brackets] and replace it. Update project links (href="#") on projects.html.
-
-## Host on GitHub Pages
-1. Create a repository and upload everything in this folder.
-2. Settings > Pages > Deploy from branch > main > / (root).
-3. Submit the Pages link and the repository link.
+Hosting: upload the contents of this folder to a GitHub repository, then Settings > Pages > Deploy from branch > main > /(root).
