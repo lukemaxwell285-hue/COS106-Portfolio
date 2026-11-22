@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student portfolio and academic planner of Moses Babalola.">
+  <title>About | Moses Babalola</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Moses Babalola</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav aria-label="Main">
+        <ul id="menu" class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="wrap section">
+      <h1>About me</h1>
+      <p class="lead">[One-line summary of who you are as a student.]</p>
+    </section>
+
+    <section class="wrap section two-col">
+      <div>
+        <h2>Educational background</h2>
+        <ol class="timeline">
+          <li><strong>[Year to Year]</strong> [Degree or programme], MIVA Open University</li>
+          <li><strong>[Year to Year]</strong> [Previous qualification], [Institution]</li>
+          <li><strong>[Year to Year]</strong> [Secondary school or certificate], [Institution]</li>
+        </ol>
+      </div>
+      <div>
+        <h2>Career aspirations</h2>
+        <p>[Describe the role or field you want to work in and why. Mention any industry you want to combine with computing.]</p>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>Technical skills</h2>
+      <div class="table-scroll">
+        <table>
+          <caption>Skills and proficiency</caption>
+          <thead><tr><th scope="col">Skill</th><th scope="col">Level</th><th scope="col">Where I've used it</th></tr></thead>
+          <tbody>
+            <tr><td>HTML</td><td>Intermediate</td><td>This portfolio</td></tr>
+            <tr><td>CSS</td><td>Intermediate</td><td>This portfolio</td></tr>
+            <tr><td>JavaScript</td><td>Beginner</td><td>Planner and contact form</td></tr>
+            <tr><td>[Your skill]</td><td>[Level]</td><td>[Example]</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="wrap section two-col">
+      <div>
+        <h2>Hobbies and interests</h2>
+        <ul class="ticks">
+          <li>[Hobby one]</li>
+          <li>[Hobby two]</li>
+          <li>[Hobby three]</li>
+          <li>[Hobby four]</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Hear from me</h2>
+        <video controls preload="metadata" poster="images/video-poster.svg">
+          <source src="media/intro.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p class="note">Add a short intro video as <code>media/intro.mp4</code>.</p>
+        <audio controls preload="none">
+          <source src="media/intro.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p class="note">Optional: add an audio note as <code>media/intro.mp3</code>.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <p>&copy; 2026 Moses Babalola. Built for COS 106, MIVA Open University.</p>
+      <p><a href="contact.html">Get in touch</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student portfolio and academic planner of Moses Babalola.">
+  <title>Contact | Moses Babalola</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Moses Babalola</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav aria-label="Main">
+        <ul id="menu" class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="wrap section narrow">
+      <h1>Contact me</h1>
+      <p class="lead">Send a message and I'll reply as soon as I can.</p>
+
+      <form id="contact-form" class="panel stack" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name">
+          <span class="error" id="name-error"></span>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" autocomplete="email">
+          <span class="error" id="email-error"></span>
+        </div>
+        <div class="field">
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel">
+          <span class="error" id="phone-error"></span>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+          <span class="error" id="message-error"></span>
+        </div>
+        <button class="btn" type="submit">Send message</button>
+        <p id="form-success" class="success" role="status" hidden>Thanks, your message has been sent.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <p>&copy; 2026 Moses Babalola. Built for COS 106, MIVA Open University.</p>
+      <p><a href="contact.html">Get in touch</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

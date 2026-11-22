@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student portfolio and academic planner of Moses Babalola.">
+  <title>Academic planner | Moses Babalola</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="index.html">Moses Babalola</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav aria-label="Main">
+        <ul id="menu" class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="planner.html" aria-current="page">Planner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="wrap section">
+      <h1>Academic planner</h1>
+      <p class="lead">Add the work you need to do, tick it off when it's done, and delete what you no longer need.</p>
+
+      <form id="task-form" class="panel" novalidate>
+        <div class="field grow">
+          <label for="task-input">Task</label>
+          <input id="task-input" type="text" placeholder="e.g. Finish COS 106 term project" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="task-due">Due date (optional)</label>
+          <input id="task-due" type="date">
+        </div>
+        <button class="btn" type="submit">Add task</button>
+      </form>
+      <p id="task-error" class="error" role="alert"></p>
+
+      <div class="planner-head">
+        <p id="task-count" aria-live="polite">0 tasks</p>
+        <button id="clear-done" class="btn btn-ghost" type="button">Clear completed</button>
+      </div>
+      <ul id="task-list" class="tasks"></ul>
+      <p id="empty-msg" class="empty">No tasks yet. Add your first one above.</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <p>&copy; 2026 Moses Babalola. Built for COS 106, MIVA Open University.</p>
+      <p><a href="contact.html">Get in touch</a></p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script src="js/planner.js"></script>
+</body>
+</html>
